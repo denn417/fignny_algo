@@ -17,4 +17,6 @@ answer = [0] * L
 for i in range(N):
     answer[high_score_student[i]] += 1
 
-print(answer.index(max(answer)) + 1, max(answer))
+high_count = max(answer)
+
+print(answer.index(high_count) + 1, high_count)
